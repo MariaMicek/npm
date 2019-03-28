@@ -1,0 +1,18 @@
+{
+  "name": "new-project",
+  "version": "0.1.0",
+  "description": "New project",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"test: OK\"",
+    "start": "node script.js",
+    "build": "cp script.js bundle.js",
+    "git": "git log --oneline"
+  },
+  "keywords": [
+    "basic",
+    "utility"
+  ],
+  "author": "Maria Micek <mmicek16@wp.pl>",
+  "license": "ISC"
+}
