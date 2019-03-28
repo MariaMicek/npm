@@ -5,7 +5,7 @@
   "main": "script.js",
   "scripts": {
     "test": "echo \"test: OK\"",
-    "start": "http-server",
+    "start": "./node_modules/live-server/live-server.js",
     "build": "cp script.js bundle.js",
     "git": "git log --oneline"
   },
@@ -14,5 +14,8 @@
     "utility"
   ],
   "author": "Maria Micek <mmicek16@wp.pl>",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
 }
